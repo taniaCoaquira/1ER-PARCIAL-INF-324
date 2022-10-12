@@ -1,0 +1,25 @@
+#contenido {
+    padding: 0%;
+    position: fixed;
+    top: 250px;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(237, 253, 253) 0%, rgb(202, 213, 220) 100%);
+}
+
+#lista {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 150px 150px;
+}
+
+.parrafo {
+    margin: 50px;
+    text-align: center;
+
+}
+
+.parrafo img {
+    height: 150px;
+}

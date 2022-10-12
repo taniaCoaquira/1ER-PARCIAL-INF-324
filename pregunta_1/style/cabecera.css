@@ -1,0 +1,55 @@
+.fondo {
+    margin: 0;
+    padding: 0;   
+    position: fixed;
+    top: 0px;
+}
+.faclog {
+    margin: 0;
+    padding: 0;   
+    position: fixed;
+    left: 5px;
+    top: 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    right: 0%;
+    top: 200px;
+    height: 50px;
+    width: 100%;
+}
+ul .logo{
+    float: left;
+}
+li {
+    float: right;
+}
+ul .titulo{
+    float: left;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*cambiar coleres al pasar mouse*/
+li a:hover {
+    background-color: #0cb3bc;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(218, 247, 247) 0%, rgb(195, 232, 235) 100%);
+}

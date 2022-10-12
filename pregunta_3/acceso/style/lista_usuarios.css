@@ -1,0 +1,23 @@
+.contenido_b .table {
+    width: 100%;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    border: 1px solid rgb(22, 61, 65);
+    border-collapse: collapse;
+    padding: 0.3em;
+    background: rgb(203, 235, 242);
+    color: #000;
+ }
+ .contenido_b .btn {
+    background-color:  #3db8ce;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+  }
+  .contenido_b .btn:hover {
+    background-color:  #2e8392;
+  }
+  
+  
